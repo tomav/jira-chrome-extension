@@ -2,8 +2,7 @@ language: node_js
 node_js:
   - "6"
   - "0.12"
-sudo: required
 install:
-  - make dep
+  - make dep-js
 
 script: make tests

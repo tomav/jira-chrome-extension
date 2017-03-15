@@ -1,7 +1,9 @@
 all: tests build package
 
-dep:
+dep-js:
 	npm i -g mocha browserify
+
+dep-rb:
 	sudo gem install extensionator
 
 tests:
