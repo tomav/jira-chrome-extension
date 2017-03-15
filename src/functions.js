@@ -1,4 +1,4 @@
-  var self = module.exports = {
+var self = module.exports = {
 
   /*
    * Processes item to get the appropriate output number
